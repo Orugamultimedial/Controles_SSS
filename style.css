@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 70px;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center
+}
+
+h5{
+    color: aliceblue;
+    text-align: center
+}
+
+#div_largo{
+    height: 800px;
+    width: 400px;
+    text-align: center;
+}
+
+#div_largo2{
+    height: 800px;
+    width: 400px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#div_ancho{
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+#iframe{
+    height: 800px;
+    width: 400px;
+    background-color: antiquewhite;
+}
+
+#iframe2{
+    height: 1000px;
+    width: 800px;
+    background-color: antiquewhite;
+    padding: 0px;
+    border: 0px;
+}
+
+#div_principal{
+    padding: 100px;
+    justify-content: center;
+}
+
+.btn{
+    max-height: 40px; 
+    border-radius: 5px; 
+    padding: 10px;
+    background-color: rgb(35, 103, 204); 
+    color:azure
+}
+
+#input{
+    max-height: 30px; 
+    border-radius: 5px; 
+    padding: 10px;
+}

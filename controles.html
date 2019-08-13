@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Controles.html debe encargarse de realizar todos los controles requeridos a titulares y 
+    adherentes para la gestora de obras sociales CitySalud. DANILO SANTIAGO PRIETO 13/07/2019-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Control Titulares</title>
+</head>
+
+<body>
+    <div id="div_principal" class="">
+        <h2>CONTROLES</h2>
+        <br>
+        <div class="d-flex flex-row-reverse">
+            <div style="width: 100px;">
+                <button class="btn" data-clipboard-action="cut" data-clipboard-target="#input" onClick="paste2();">OK</button>
+            </div>
+            <input type="text" style="max-height: 40px; border-radius: 5px;" id="input" value="">     
+            <h5 style="padding: 5px;">CUIT/CUIL</h5>
+        </div> 
+        <br>
+        <div class="row">
+            <div class="row">
+                <div id="div_largo" class="col-4">
+                    <h3>OPCION</h3>
+                    <br>
+                    <iframe id="iframe" src ="./opcion.html" id="iframe" scrolling="no"></iframe>
+                </div>
+                <div id="div_largo" class="col-4">
+                    <h3>PUBLICA</h3>
+                    <br>
+                    <iframe id="iframe" src ="./publica.html" id="iframe" scrolling="no"></iframe>
+                </div>           
+                <div id="div_largo" class="col-4">
+                    <h3>CERTIFICACION NEGATIVA</h3>
+                    <br>
+                    <iframe id="iframe" src ="./certificacionnegativa.html" id="iframe" scrolling="no"></iframe>
+                </div>
+                <div id="div_largo2" class="col-4">
+                    <h3>MONOTRIBUTO GENERAL</h3>
+                    <br>
+                    <iframe id="iframe" src ="./monotributogeneral.html" id="iframe" scrolling="no"></iframe>
+                </div>
+                <div id="div_largo2" class="col">
+                    <h3>MONOTRIBUTO PAGOS</h3>
+                    <br>
+                    <iframe id="iframe" src ="./monotributopagos.html" id="iframe" scrolling="no"></iframe>
+                </div>
+                <div id="div_largo2" class="col">
+                    <h3>SERVICIO DOMESTICO</h3>
+                    <br>
+                    <iframe id="iframe" src ="./serviciodomestico.html" id="iframe" scrolling="no"></iframe>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row" id="row2">
+                <div id="div_ancho" class="col">
+                    <h3>APORTES</h3>
+                    <br>
+                    <iframe id="iframe2" src ="./aportes.html" id="iframe" scrolling="no"></iframe>
+                </div>
+                <div id="div_ancho" class="col">
+                    <h3>CODEM</h3>
+                    <br>
+                    <iframe id="iframe2" src ="./codem.html" id="iframe" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+        <!--Libreria para copiar y pegar-->
+        <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--Script.js-->
+        <script src="./script.js"></script>
+</body>
+</html>
+
